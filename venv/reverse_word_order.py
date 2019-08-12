@@ -1,0 +1,6 @@
+stringword = input("your Statement")
+listofword = stringword.split()
+print(listofword)
+reversedlist = reversed(listofword)
+result = " ".join(reversedlist)
+print(result)
