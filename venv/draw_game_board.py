@@ -1,13 +1,16 @@
-def gameboard(number):
-    for i in range(number):
-        print(number * ' ---')
-        print((number + 1) * '|   ')
-    print(number * ' ---')
+def gameboard(size):
+    for i in range(size):
+        print(size * ' ---')
+        print((size + 1) * '|   ')
+    print(size * ' ---')
 
 
 if __name__=="__main__":
-    number = int(input("Enter no. of nXn matrix game board"))
+    number = int(input("Enter size of game board matrix"))
     gameboard(number)
+
+
+    ## internet solution
 
     a = '---'.join('    ')
     b = '   '.join('||||')

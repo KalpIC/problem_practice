@@ -1,6 +1,6 @@
-##
 ## From https://www.practicepython.org/
-##
+
+
 x = int(input("Enter Any Number : "))
 y = []
 
