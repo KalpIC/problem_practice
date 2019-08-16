@@ -15,10 +15,10 @@
 # print(matrix)
 
 
-matrix = [[2,1,1],[2,2,6],[8,1,2]]
+matrix = [['X','O','O'],[2,'X',6],[8,1,'X']]
 
 
-player_1_win = [1,1,1]
+player_1_win = ['X','X','X']
 player_2_win = [2,2,2]
 p1 = False
 p2 = False
