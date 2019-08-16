@@ -75,6 +75,7 @@ def move_counter():
     if count == 9:
         sys.exit("No more moves left....Bye Bye...")
 
+print_game()
 
 while condi == True:
     while p1gotco_ordi ==True:
